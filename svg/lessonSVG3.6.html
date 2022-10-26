@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резиновый фон с preserveAspectRatio</title>
+    <style>
+      .background {
+        height: 200px;
+
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: 100% 100%;
+        border: 2px solid gold;
+      }
+
+      .no-viewbox {
+        background-image: url("no-viewbox.svg");
+      }
+
+      .has-viewbox {
+        background-image: url("has-viewbox.svg");
+      }
+
+      .has-viewbox-psa-none {
+        background-image: url("has-viewbox-psa-none.svg");
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background no-viewbox"></div>
+    <div class="background has-viewbox"></div>
+    <div class="background has-viewbox-psa-none"></div>
+  </body>
+</html>

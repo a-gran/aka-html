@@ -1,0 +1,52 @@
+body {
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Arial", sans-serif;
+  color: #222222;
+/* Задайте свойство ниже */
+  background: #ffffff url("img/bg-page.png") no-repeat top center;
+
+}
+
+h1 {
+  font-size: 36px;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: normal;
+}
+
+a {
+  color: #0099ef;
+  text-decoration: underline;
+}
+
+.avatar {
+  border-radius: 10px;
+}
+
+nav {
+  margin-bottom: 30px;
+  padding: 20px;
+
+  background-color: #4470c4;
+  border: 5px solid #2d508f;
+
+  color: #ffffff;
+}
+
+nav a {
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+  margin-top: 30px;
+}

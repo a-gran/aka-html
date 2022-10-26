@@ -1,0 +1,46 @@
+body {
+  padding: 0 30px;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Georgia", serif;
+  color: #222222;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: normal;
+}
+
+a {
+  color: #0099ef;
+  text-decoration: underline;
+}
+
+.avatar {
+  border-radius: 10px;
+}
+
+nav {
+  margin-bottom: 30px;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #4470c4;
+}
+
+nav a {
+  color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+  margin-top: 30px;
+}

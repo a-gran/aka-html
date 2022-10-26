@@ -1,0 +1,52 @@
+body {
+  padding: 0 30px;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Georgia", serif;
+  color: #222222;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: normal;
+}
+
+aside {
+  margin: 20px 0;
+  color: #c4c4c4;
+}
+
+a[href] {
+  color: #0099ef;
+  text-decoration-line: underline;
+}
+
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figure img {
+  vertical-align: middle;
+  border: 8px solid rgb(202, 224, 248);
+}
+
+figcaption {
+  width: 502px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  font-style: italic;
+  text-align: center;
+  background-color: rgb(202, 224, 248);
+}
+
+.pagination a {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 15px;
+}
+
+.pagination {
+  text-align: center;
+}
